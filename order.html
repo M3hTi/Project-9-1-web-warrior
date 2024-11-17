@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="order-container">
+        <h1>Your Shopping Cart</h1>
+        
+        <!-- Greeting Message Section -->
+        <div class="greeting-card">
+            <h2>Greeting Message</h2>
+            <div class="message-content">
+                <!-- <p><strong>To:</strong> <span id="recipientName"></span></p>
+                <p><strong>From:</strong> <span id="senderName"></span></p>
+                <p><strong>Message:</strong></p> -->
+                <p id="greetingMessage" class="message-text"></p>
+            </div>
+        </div>
+
+        <!-- Shopping Cart Table -->
+        <div class="cart-section">
+            <h2>Order Details</h2>
+            <table class="cart-table">
+                <thead>
+                    <tr>
+                        <th>Item</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Classic Pears, Apples, and Cheese Box ($49.95)</td>
+                        <td class="center">1</td>
+                        <td class="right">$49.95</td>
+                    </tr>
+                    <tr>
+                        <td>Signature Chocolate Truffles ($29.95)</td>
+                        <td class="center">2</td>
+                        <td class="right">$59.90</td>
+                    </tr>
+                    <tr class="total-row">
+                        <td colspan="2" class="right">TOTAL</td>
+                        <td class="right">$109.85</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="actions">
+            <a href="greeting.html" class="button secondary">Back to Greeting</a>
+            <button class="button primary">Proceed to Checkout</button>
+        </div>
+    </div>
+    <script src="order.js"></script>
+</body>
+</html>

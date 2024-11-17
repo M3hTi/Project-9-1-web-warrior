@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Greeting</title>
+</head>
+<body>
+    <form action="order.html" method="get" id="greetingForm">
+       <fieldset>
+        <div>
+            <label for="To">To:</label>
+        <input type="text" id="To" name="To">
+        </div>
+        <div>
+            <label for="From">From:</label>
+            <input type="text" id="From" name="From">
+        </div>
+        <div>
+            <label for="Message">Message:</label>
+            <textarea name="Message" id="Message"></textarea>
+        </div>
+        <div>
+            <button type="button" id="next">Next</button>
+        </div>
+        <div id="error"></div>
+       </fieldset>
+    </form>
+    <script src="greeting.js"></script>
+</body>
+</html>
